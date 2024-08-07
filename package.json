@@ -1,0 +1,22 @@
+{
+  "name": "spaceship",
+  "version": "1.0.0",
+  "description": "The primitive version of the famous spaceship game built with rxjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "rxjs",
+    "node",
+    "html",
+    "css",
+    "spaceship"
+  ],
+  "author": "donaldteghen",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "rxjs": "^7.8.1"
+  }
+}
