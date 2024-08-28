@@ -4,6 +4,7 @@
   "description": "The primitive version of the famous spaceship game built with rxjs",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "test"
   },
   "keywords": [
