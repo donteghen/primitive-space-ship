@@ -1,10 +1,6 @@
 const {Subject, concat, range, map, toArray, take, mergeMap, interval, tap, fromEvent, startWith, combineLatest, scan, sample,
      sampleTime, filter, timestamp, merge, distinctUntilChanged, debounceTime, takeWhile, of} = rxjs;
-//const {range, map, toArray, take, mergeMap, interval, tap, fromEvent, startWith, combineLatest, scan, sample, sampleTime, filter, timestamp, merge, distinctUntilChanged} = require('rxjs');
-//require('dotenv').config();
-//const R = require('ramda');
-//  import other local modules
-//const {generateStarBg} = require('./src/util/star');
+
 
 const startBtn = document.querySelector('#gamer-button');
 const canva = document?.createElement('canvas');
