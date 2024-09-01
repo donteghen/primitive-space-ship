@@ -4,14 +4,24 @@
         <meta charset="utf-8">
         <title>Spaceship Reactive!</title>
         <script src="https://unpkg.com/rxjs@^7/dist/bundles/rxjs.umd.min.js"></script> 
+        <script src="//cdnjs.cloudflare.com/ajax/libs/ramda/0.30.0/ramda.min.js"></script>
         <style>
             html, body {        
                 margin: 0;
                 padding: 0; 
+                background-color: #0a0a0a; /* Dark background for contrast */
+                
+                height: 100vh;
+                overflow: hidden;
+            }            
+            .gamer-button {
+                font-size: 50px;
             }
+            
         </style>
     </head>
     <body>
+        <button id="gamer-button" class="gamer-button">Start</button>
     <script src="../index.js"></script>
   </body>
 </html>
